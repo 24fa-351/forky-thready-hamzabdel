@@ -1,0 +1,261 @@
+
+Running Pattern 1:
+** Pattern 1: Creating 6 processes
+Parent: created child 0 (pid 165624)
+Parent: created child 1 (pid 165625)
+Parent: created child 2 (pid 165626)
+Process 0 (pid 165624) created: will sleep for 2 seconds
+Parent: created child 3 (pid 165627)
+Parent: created child 4 (pid 165628)
+Process 1 (pid 165625) created: will sleep for 2 seconds
+Parent: created child 5 (pid 165629)
+** Pattern 1: All processes created
+Process 5 (pid 165629) created: will sleep for 2 seconds
+Process 3 (pid 165627) created: will sleep for 2 seconds
+Process 4 (pid 165628) created: will sleep for 2 seconds
+Process 2 (pid 165626) created: will sleep for 2 seconds
+Process 5 (pid 165629): exiting
+Process 3 (pid 165627): exiting
+Process 1 (pid 165625): exiting
+Process 2 (pid 165626): exiting
+Process 0 (pid 165624): exiting
+Process 4 (pid 165628): exiting
+** Pattern 1: All children have exited
+
+Running Pattern 2:
+** Pattern 2: Creating 6 processes
+Parent: created child 0 (pid 165678)
+Parent: created child 1 (pid 165679)
+Parent: created child 2 (pid 165680)
+Child 0 (pid 165678): starting
+Parent: created child 3 (pid 165681)
+Parent: created child 4 (pid 165682)
+Child 1 (pid 165679): starting
+Parent: created child 5 (pid 165683)
+Child 5 (pid 165683): starting
+Child 2 (pid 165680): starting
+Child 3 (pid 165681): starting
+Child 4 (pid 165682): starting
+Child 0 (pid 165678): exiting after sleeping for 5 seconds.
+Child 4 (pid 165682): exiting after sleeping for 5 seconds.
+Child 2 (pid 165680): exiting after sleeping for 5 seconds.
+Child 1 (pid 165679): exiting after sleeping for 5 seconds.
+Child 5 (pid 165683): exiting after sleeping for 5 seconds.
+Child 3 (pid 165681): exiting after sleeping for 5 seconds.
+** Pattern 2: All children have exited
+
+Running Pattern 1:
+** Pattern 1: Creating 13 processes
+Parent: created child 0 (pid 165981)
+Parent: created child 1 (pid 165982)
+Parent: created child 2 (pid 165983)
+Parent: created child 3 (pid 165984)
+Process 2 (pid 165983) created: will sleep for 7 seconds
+Parent: created child 4 (pid 165985)
+Parent: created child 5 (pid 165986)
+Parent: created child 6 (pid 165987)
+Process 1 (pid 165982) created: will sleep for 7 seconds
+Process 0 (pid 165981) created: will sleep for 7 seconds
+Parent: created child 7 (pid 165988)
+Process 3 (pid 165984) created: will sleep for 7 seconds
+Parent: created child 8 (pid 165989)
+Process 6 (pid 165987) created: will sleep for 7 seconds
+Process 4 (pid 165985) created: will sleep for 7 seconds
+Process 5 (pid 165986) created: will sleep for 7 seconds
+Parent: created child 9 (pid 165990)
+Process 8 (pid 165989) created: will sleep for 7 seconds
+Process 9 (pid 165990) created: will sleep for 7 seconds
+Parent: created child 10 (pid 165991)
+Process 7 (pid 165988) created: will sleep for 7 seconds
+Parent: created child 11 (pid 165992)
+Parent: created child 12 (pid 165993)
+** Pattern 1: All processes created
+Process 10 (pid 165991) created: will sleep for 7 seconds
+Process 11 (pid 165992) created: will sleep for 7 seconds
+Process 12 (pid 165993) created: will sleep for 7 seconds
+Process 0 (pid 165981): exiting
+Process 1 (pid 165982): exiting
+Process 2 (pid 165983): exiting
+Process 3 (pid 165984): exiting
+Process 4 (pid 165985): exiting
+Process 8 (pid 165989): exiting
+Process 5 (pid 165986): exiting
+Process 6 (pid 165987): exiting
+Process 9 (pid 165990): exiting
+Process 7 (pid 165988): exiting
+Process 11 (pid 165992): exiting
+Process 12 (pid 165993): exiting
+Process 10 (pid 165991): exiting
+** Pattern 1: All children have exited
+
+Running Pattern 2:
+** Pattern 2: Creating 13 processes
+Parent: created child 0 (pid 166114)
+Parent: created child 1 (pid 166115)
+Parent: created child 2 (pid 166116)
+Child 1 (pid 166115): starting
+Parent: created child 3 (pid 166117)
+Parent: created child 4 (pid 166118)
+Child 2 (pid 166116): starting
+Parent: created child 5 (pid 166119)
+Child 0 (pid 166114): starting
+Child 3 (pid 166117): starting
+Parent: created child 6 (pid 166120)
+Child 5 (pid 166119): starting
+Parent: created child 7 (pid 166121)
+Parent: created child 8 (pid 166122)
+Child 4 (pid 166118): starting
+Parent: created child 9 (pid 166123)
+Child 7 (pid 166121): starting
+Child 6 (pid 166120): starting
+Parent: created child 10 (pid 166124)
+Parent: created child 11 (pid 166125)
+Parent: created child 12 (pid 166126)
+Child 8 (pid 166122): starting
+Child 12 (pid 166126): starting
+Child 10 (pid 166124): starting
+Child 9 (pid 166123): starting
+Child 11 (pid 166125): starting
+Child 1 (pid 166115): exiting after sleeping for 1 seconds.
+Child 4 (pid 166118): exiting after sleeping for 1 seconds.
+Child 12 (pid 166126): exiting after sleeping for 1 seconds.
+Child 9 (pid 166123): exiting after sleeping for 1 seconds.
+Child 2 (pid 166116): exiting after sleeping for 1 seconds.
+Child 5 (pid 166119): exiting after sleeping for 1 seconds.
+Child 8 (pid 166122): exiting after sleeping for 1 seconds.
+Child 3 (pid 166117): exiting after sleeping for 1 seconds.
+Child 7 (pid 166121): exiting after sleeping for 1 seconds.
+Child 10 (pid 166124): exiting after sleeping for 1 seconds.
+Child 0 (pid 166114): exiting after sleeping for 1 seconds.
+Child 6 (pid 166120): exiting after sleeping for 1 seconds.
+Child 11 (pid 166125): exiting after sleeping for 1 seconds.
+** Pattern 2: All children have exited
+
+Running Pattern 1:
+** Pattern 1: Creating 20 processes
+Parent: created child 0 (pid 166168)
+Parent: created child 1 (pid 166169)
+Parent: created child 2 (pid 166170)
+Process 0 (pid 166168) created: will sleep for 1 seconds
+Process 1 (pid 166169) created: will sleep for 1 seconds
+Process 2 (pid 166170) created: will sleep for 1 seconds
+Parent: created child 3 (pid 166171)
+Process 3 (pid 166171) created: will sleep for 1 seconds
+Parent: created child 4 (pid 166172)
+Process 4 (pid 166172) created: will sleep for 1 seconds
+Parent: created child 5 (pid 166173)
+Parent: created child 6 (pid 166174)
+Process 6 (pid 166174) created: will sleep for 1 seconds
+Process 5 (pid 166173) created: will sleep for 1 seconds
+Parent: created child 7 (pid 166175)
+Process 7 (pid 166175) created: will sleep for 1 seconds
+Parent: created child 8 (pid 166176)
+Process 8 (pid 166176) created: will sleep for 1 seconds
+Parent: created child 9 (pid 166177)
+Parent: created child 10 (pid 166178)
+Process 10 (pid 166178) created: will sleep for 1 seconds
+Parent: created child 11 (pid 166179)
+Process 9 (pid 166177) created: will sleep for 1 seconds
+Process 11 (pid 166179) created: will sleep for 1 seconds
+Parent: created child 12 (pid 166180)
+Process 12 (pid 166180) created: will sleep for 1 seconds
+Parent: created child 13 (pid 166182)
+Process 13 (pid 166182) created: will sleep for 1 seconds
+Parent: created child 14 (pid 166183)
+Process 14 (pid 166183) created: will sleep for 1 seconds
+Process 15 (pid 166184) created: will sleep for 1 seconds
+Parent: created child 15 (pid 166184)
+Parent: created child 16 (pid 166185)
+Parent: created child 17 (pid 166186)
+Parent: created child 18 (pid 166187)
+Parent: created child 19 (pid 166188)
+** Pattern 1: All processes created
+Process 19 (pid 166188) created: will sleep for 1 seconds
+Process 17 (pid 166186) created: will sleep for 1 seconds
+Process 18 (pid 166187) created: will sleep for 1 seconds
+Process 16 (pid 166185) created: will sleep for 1 seconds
+Process 1 (pid 166169): exiting
+Process 0 (pid 166168): exiting
+Process 2 (pid 166170): exiting
+Process 3 (pid 166171): exiting
+Process 4 (pid 166172): exiting
+Process 6 (pid 166174): exiting
+Process 7 (pid 166175): exiting
+Process 5 (pid 166173): exiting
+Process 8 (pid 166176): exiting
+Process 10 (pid 166178): exiting
+Process 9 (pid 166177): exiting
+Process 11 (pid 166179): exiting
+Process 12 (pid 166180): exiting
+Process 13 (pid 166182): exiting
+Process 14 (pid 166183): exiting
+Process 15 (pid 166184): exiting
+Process 19 (pid 166188): exiting
+Process 17 (pid 166186): exiting
+Process 16 (pid 166185): exiting
+Process 18 (pid 166187): exiting
+** Pattern 1: All children have exited
+
+Running Pattern 2:
+** Pattern 2: Creating 20 processes
+Parent: created child 0 (pid 166409)
+Parent: created child 1 (pid 166410)
+Parent: created child 2 (pid 166411)
+Child 0 (pid 166409): starting
+Parent: created child 3 (pid 166412)
+Child 1 (pid 166410): starting
+Parent: created child 4 (pid 166413)
+Parent: created child 5 (pid 166414)
+Parent: created child 6 (pid 166415)
+Child 4 (pid 166413): starting
+Parent: created child 7 (pid 166416)
+Child 2 (pid 166411): starting
+Child 6 (pid 166415): starting
+Parent: created child 8 (pid 166417)
+Child 5 (pid 166414): starting
+Parent: created child 9 (pid 166418)
+Child 3 (pid 166412): starting
+Child 7 (pid 166416): starting
+Parent: created child 10 (pid 166419)
+Child 9 (pid 166418): starting
+Parent: created child 11 (pid 166420)
+Parent: created child 12 (pid 166421)
+Parent: created child 13 (pid 166422)
+Child 8 (pid 166417): starting
+Parent: created child 14 (pid 166423)
+Child 12 (pid 166421): starting
+Parent: created child 15 (pid 166424)
+Child 11 (pid 166420): starting
+Parent: created child 16 (pid 166425)
+Child 14 (pid 166423): starting
+Child 13 (pid 166422): starting
+Parent: created child 17 (pid 166426)
+Parent: created child 18 (pid 166427)
+Parent: created child 19 (pid 166428)
+Child 16 (pid 166425): starting
+Child 18 (pid 166427): starting
+Child 15 (pid 166424): starting
+Child 10 (pid 166419): starting
+Child 17 (pid 166426): starting
+Child 19 (pid 166428): starting
+Child 2 (pid 166411): exiting after sleeping for 4 seconds.
+Child 1 (pid 166410): exiting after sleeping for 4 seconds.
+Child 3 (pid 166412): exiting after sleeping for 4 seconds.
+Child 5 (pid 166414): exiting after sleeping for 4 seconds.
+Child 7 (pid 166416): exiting after sleeping for 4 seconds.
+Child 14 (pid 166423): exiting after sleeping for 4 seconds.
+Child 11 (pid 166420): exiting after sleeping for 4 seconds.
+Child 8 (pid 166417): exiting after sleeping for 4 seconds.
+Child 0 (pid 166409): exiting after sleeping for 4 seconds.
+Child 18 (pid 166427): exiting after sleeping for 4 seconds.
+Child 4 (pid 166413): exiting after sleeping for 4 seconds.
+Child 16 (pid 166425): exiting after sleeping for 4 seconds.
+Child 6 (pid 166415): exiting after sleeping for 4 seconds.
+Child 9 (pid 166418): exiting after sleeping for 4 seconds.
+Child 12 (pid 166421): exiting after sleeping for 4 seconds.
+Child 13 (pid 166422): exiting after sleeping for 4 seconds.
+Child 17 (pid 166426): exiting after sleeping for 4 seconds.
+Child 10 (pid 166419): exiting after sleeping for 4 seconds.
+Child 19 (pid 166428): exiting after sleeping for 4 seconds.
+Child 15 (pid 166424): exiting after sleeping for 4 seconds.
+** Pattern 2: All children have exited
